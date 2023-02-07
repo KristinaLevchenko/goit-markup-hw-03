@@ -19,6 +19,12 @@ body{
     color: var(--Fourth-title-color);
 
 }
+
+img {
+    display: block;
+}
+
+
 .link{
     text-decoration: none;
 }
@@ -26,8 +32,19 @@ body{
     list-style: none;
 }
 
+.container{
+    width: 100%;
+    max-width:1158px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
 /*---------------------HEADER---------------*/
-.header {}
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-navigation {}
 
@@ -44,6 +61,10 @@ body{
 .adress{
     font-style: normal;
 
+}
+
+img{
+    display: block;
 }
 
 .header-list {}
@@ -100,6 +121,7 @@ body{
 
 .hero{
     background-color: var(--second-title-color);
+
 }
 
 .hero-title{
@@ -108,10 +130,14 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--mein-title-color);
+    margin-bottom: 48px;
 }
 /*---------------------------------HERO---------------*/
 /*---------------------------------SECTION 1---------------*/
-.about {}
+.about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .about-list {}
 
@@ -120,7 +146,7 @@ body{
 .about-pre-title {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--Fourth-title-color);
 }
@@ -131,7 +157,8 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
-}
+    
+ }
 /*---------------------------------SECTION 1---------------*/
 /*---------------------------------work---------------*/
  
@@ -145,7 +172,9 @@ body{
         color: var(--second-title-color);
 }
 
-.work-list {}
+.work-list {
+    padding-bottom: 120px;
+}
 
 .list {}
 
@@ -163,13 +192,19 @@ body{
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
+    padding-top: 120px;
+    margin-bottom: 72px;
 
 }
-.team-list {}
+.team-list {
+    padding-bottom: 120px;
+}
 
 .list {}
 
-.team-item {}
+.team-item {
+   
+}
 
 .team-subject {
     font-weight: 500;
@@ -204,6 +239,7 @@ font-weight: 400;
         letter-spacing: 0.03em;
         color: var(--mein-title-color);
         text-transform: uppercase;
+        padding-top: 100px;
 }
 
 .caption-pre {
@@ -218,6 +254,7 @@ font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--third-title-color);
+        padding-bottom: 100px;
 }
 
 .portfolio-btn{
@@ -273,7 +310,18 @@ font-weight: 400;
     margin: -1px;
 }
 
-
- 
-
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+h5,
+h6 {
+margin: 0;
+}
+    
+ul {
+margin: 0;
+padding-left: 0;
+  }
  
