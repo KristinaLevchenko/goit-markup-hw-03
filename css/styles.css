@@ -60,6 +60,7 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .heder-container{
@@ -139,7 +140,7 @@ gap: 40px;
 /*---------------------------------HERO---------------*/
 .hero-btn {
     min-width: 169px;
-    height: 56px;
+    padding: 16px 32px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -151,6 +152,7 @@ gap: 40px;
     border-radius: 4px;
     margin: 0 auto;
     display: block;
+    border: none;
     }
 
 .hero-btn:hover,
@@ -213,7 +215,6 @@ gap: 40px;
 /*---------------------------------work---------------*/
  
 .work {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -232,7 +233,6 @@ gap: 40px;
     gap: 24px;
 }
 
-.list {}
 
 .work-item {}
 /*---------------------------------work---------------*/
@@ -258,27 +258,16 @@ gap: 40px;
     gap: 24px;
 }
 
-.list {}
 
 .team-item {
     width: calc((100%-72px)/4);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 24px;
     background-color: var(--fons-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
 .team-name{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    text-align: center;
     padding: 32px 16px;
 }
 
@@ -334,11 +323,13 @@ font-weight: 400;
         letter-spacing: 0.02em;
         color: var(--third-title-color);
         max-width: 264px;
+        margin-top: 16px;
         
 }
 
 .portfolio{
 padding-top: 96px;
+padding-bottom: 120px;
 }
 
 
@@ -372,31 +363,21 @@ padding-top: 96px;
    display: flex;
    gap: 24px;
    justify-content: center;
-   padding-bottom: 72px;   
+   margin-bottom: 72px;   
 }
 .portfolio-list{
 display: flex;
 flex-wrap: wrap;
-gap: 24px;
-padding-bottom: 120px;
+gap: 48px 24px;
 }
 
-.list {}
-
 .portfolio-item {
-    flex-basis: calc((100%-(2*24px))/3);
-    display: flex;
-    flex-direction: column;
-    background:var(--fons-color);
 }
 
 .portfolio-item-text{
-    display: flex;
-    flex-direction: column;
-    width:100%;
-    padding: 32px 0 32px 0 ;
-    background-color: var(--fons-color);
+    padding: 32px 16px 32px 16px ;
     border: 1px solid var(--bordeer-color);
+    border-top: 0;
 }
 
 .portfolio-title {
